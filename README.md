@@ -57,7 +57,8 @@ criteria should be reported.
 
 1. Clone this repository.
    ```
-   git clone https://github.com/
+   git clone https://github.com/shreyaspatil1008/trade-reporting-engine
+   
    ```
 
 2. Navigate to the project folder.
@@ -76,6 +77,22 @@ criteria should be reported.
    ```
 
 5. Access the API-Docs at [http://localhost:8080/api-docs].
+6. Input File Location is: src/main/resources/files/eventXML/input
+7. Rules are in the file src/main/resources/rules.csv
+
+   Sample of Rules:
+
+RULE_NUMBER,FIELD,VALUE,PRIMARY_CONDITION,SECONDARY_CONDITION,IS_APPLICABLE,IS_CUSTOM
+1,seller_party,EMU_BANK,AND,OR,YES,NO
+1,premium_currency,AUD,AND,OR,YES,NO
+2,seller_party,BISON_BANK,AND,OR,YES,NO
+2,premium_currency,USD,AND,OR,YES,NO
+3,seller_party,ANAGRAM,buyer_party,AND,YES,YES
+
+
+More rules can be added dynamically.
+   
+  
 
 ## Features
 
