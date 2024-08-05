@@ -1,0 +1,4 @@
+com/vanguard/trade/TradeReportingEngineApplication.class
+com/vanguard/trade/exception/EventProcessingException.class
+com/vanguard/trade/service/EventService.class
+com/vanguard/trade/exception/GlobalExceptionHandler.class
